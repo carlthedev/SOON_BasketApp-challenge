@@ -1,0 +1,64 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px 0px 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#lockup {
+  display: flex;
+}
+
+#lockup h1:first-child {
+width: 75px;
+height: 28px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+color: rgba(0, 0, 0, 0.25);
+}
+
+#lockup h1:nth-child(2) {
+  width: 150px;
+  height: 28px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+#basket {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#basket img {
+  width: 22px;
+  margin-right: 10px;
+}
+
+#basket p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  width: 24px;
+  height: 24px;
+  border-radius: 48px;
+  color: white;
+  background: rgba(0, 0, 0, 0.25);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+hr {
+  height: 1px;
+  bottom: 0px;
+  margin: 0px 40px 0px 40px;
+  background: rgba(0, 0, 0, 0.25);
+}
+
