@@ -52,42 +52,47 @@ article p1 {
 
 #quantity {
   display: flex;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
-#quantity p:first-child {
+#minus {
   display: flex;
   justify-content: center;
-  align-items: center;
   font-size: 1.5rem;
   border: 1px solid #3F51B5;
   border-radius: 24px;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   padding: 4px;
   cursor: pointer;
+  background: none;
 }
 
-#quantity p:nth-child(2) {
+#amount {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
-  width: 32px;
-  height: 32px;
+  font-size: 1.1rem;
+  width: 40px;
+  height: 40px;
   padding: 4px;
+  border-style: none;
+  background: none;
 }
 
-#quantity p:last-child {
+#plus {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   border: 1px solid #3F51B5;
   border-radius: 24px;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   padding: 4px;
   cursor: pointer;
+  background: none;
 }
 
 #add-btn {
