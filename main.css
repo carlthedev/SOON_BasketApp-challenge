@@ -1,7 +1,6 @@
 main {
   display: flex;
   margin: 40px 40px 0px 40px;
-  gap: 1rem;
 }
 
 article {
@@ -10,7 +9,7 @@ article {
 }
 
 article h2 {
-  width: 588px;
+  width: 500px;
   height: 40px;
   font-family: 'Roboto';
   font-style: normal;
