@@ -9,7 +9,7 @@ article {
 }
 
 article h2 {
-  width: 500px;
+  width: auto;
   height: 40px;
   font-family: 'Roboto';
   font-style: normal;
@@ -111,4 +111,15 @@ article p1 {
 
 #add-btn:hover {
   transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1000px) {
+  main {
+    display: block;
+  }
+  main figure {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
 }
